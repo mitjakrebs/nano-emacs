@@ -435,7 +435,7 @@ function is a convenience wrapper used by `describe-package-1'."
   (with-eval-after-load 'org-agenda
     (set-face 'org-agenda-calendar-event             'nano-face-default)
     (set-face 'org-agenda-calendar-sexp              'nano-face-salient)
-    (set-face 'org-agenda-clocking                     'nano-face-faded)
+    (set-face 'org-agenda-clocking                    'nano-face-subtle)
     (set-face 'org-agenda-column-dateline              'nano-face-faded)
     (set-face 'org-agenda-current-time                'nano-face-strong)
     (set-face 'org-agenda-date                       'nano-face-salient)

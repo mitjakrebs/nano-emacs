@@ -213,11 +213,6 @@ background color that is barely perceptible."
                       :foreground nano-color-salient
                       :weight 'light)
 
-  (set-face-attribute 'nano-face-link nil
-		      :foreground nano-color-salient
-		      :weight 'light
-		      :underline t)
-
   (set-face-attribute 'nano-face-faded nil
                       :foreground nano-color-faded
                       :weight 'light)

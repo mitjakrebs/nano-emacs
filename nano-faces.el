@@ -94,10 +94,6 @@ the face uses a different hue with approximately the same
 intensity as the default face. This is typically used for links."
   :group 'nano)
 
-(defface nano-face-link nil
-  ""
-  :group 'nano)
-
 (defface nano-face-faded nil
   "Faded face is for information that are less important.
 It is made by using the same hue as the default but with a lesser

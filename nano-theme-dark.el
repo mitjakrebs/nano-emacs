@@ -21,15 +21,15 @@
   "Apply dark Nano theme base."
   ;; Colors from Nord theme at https://www.nordtheme.com
   (setq frame-background-mode     'dark)
-  (setq nano-color-foreground "#eceff4") ;; Snow Storm 3  / nord  6
-  (setq nano-color-background "#2e3440") ;; Polar Night 0 / nord  0
-  (setq nano-color-highlight  "#3b4252") ;; Polar Night 1 / nord  1
-  (setq nano-color-critical   "#bf616a") ;; Aurora        / nord 11
-  (setq nano-color-salient    "#88c0d0") ;; Frost         / nord  9
-  (setq nano-color-strong     "#eceff4") ;; Snow Storm 3  / nord  6
-  (setq nano-color-popout     "#d08770") ;; Aurora        / nord 12
-  (setq nano-color-subtle     "#3b4252") ;; Polar Night 2 / nord  2
-  (setq nano-color-faded      "#4c566a") ;;
+  (setq nano-color-foreground "#fafafa") ;; Gray 50
+  (setq nano-color-background "#424242") ;; Gray 800
+  (setq nano-color-highlight  "#616161") ;; Gray 700
+  (setq nano-color-critical   "#ff5252") ;; Red A200
+  (setq nano-color-salient    "#80d8ff") ;; Light Blue A100
+  (setq nano-color-strong     "#fafafa") ;; Gray 50
+  (setq nano-color-popout     "#ffab40") ;; Orange A200
+  (setq nano-color-subtle     "#616161") ;; Gray 700
+  (setq nano-color-faded      "#9e9e9e") ;; Gray 500
   ;; to allow for toggling of the themes.
   (setq nano-theme-var "dark")
   )

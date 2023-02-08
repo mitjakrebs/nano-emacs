@@ -108,7 +108,7 @@ Defaults to nil."
   ;; General
   (set-face 'buffer-menu-buffer                       'nano-face-strong)
   (set-face 'minibuffer-prompt                        'nano-face-strong)
-  (set-face 'link                                       'nano-face-link)
+  (set-face 'link                                    'nano-face-salient)
   (set-face 'fringe                                    'nano-face-faded)
   (set-face-attribute 'fringe nil
                       :foreground (face-background 'nano-face-subtle)
@@ -497,7 +497,7 @@ function is a convenience wrapper used by `describe-package-1'."
     (set-face 'org-level-6                            'nano-face-strong)
     (set-face 'org-level-7                            'nano-face-strong)
     (set-face 'org-level-8                            'nano-face-strong)
-    (set-face 'org-link                                 'nano-face-link)
+    (set-face 'org-link                              'nano-face-salient)
     (set-face 'org-list-dt                             'nano-face-faded)
     (set-face 'org-macro                               'nano-face-faded)
     (set-face 'org-meta-line                           'nano-face-faded)

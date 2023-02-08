@@ -20,15 +20,15 @@
   "Apply light Nano theme base."
   ;; Colors from Material design at https://material.io/
   (setq frame-background-mode    'light)
-  (setq nano-color-foreground "#263238") ;; Blue Grey / L800
+  (setq nano-color-foreground "#263238") ;; Blue Gray 900
   (setq nano-color-background "#ffffff") ;; White
-  (setq nano-color-highlight  "#eceff1") ;; Very Light Grey
-  (setq nano-color-critical   "#f44336") ;; Amber / L900
-  (setq nano-color-salient    "#0277bd") ;; Deep Purple / L500
-  (setq nano-color-strong     "#263238") ;; Black
-  (setq nano-color-popout     "#fb8c00") ;; Deep Orange / L200
-  (setq nano-color-subtle     "#eceff1") ;; Blue Grey / L50
-  (setq nano-color-faded      "#b0bec5") ;; Blue Grey / L200
+  (setq nano-color-highlight  "#eceff1") ;; Blue Gray 50
+  (setq nano-color-critical   "#f44336") ;; Red 500
+  (setq nano-color-salient    "#0277bd") ;; Light Blue 800
+  (setq nano-color-strong     "#263238") ;; Blue Gray 900
+  (setq nano-color-popout     "#fb8c00") ;; Orange 600
+  (setq nano-color-subtle     "#eceff1") ;; Blue Gray 50
+  (setq nano-color-faded      "#b0bec5") ;; Blue Gray 200
   ;; to allow for toggling of the themes.
   (setq nano-theme-var "light")
   )

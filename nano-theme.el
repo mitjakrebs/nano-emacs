@@ -71,7 +71,7 @@ Defaults to nil."
 
   ;; Structural
   (set-face 'bold                                     'nano-face-strong)
-  (set-face 'italic                                    'nano-face-faded)
+  (set-face 'italic                                   'nano-face-popout)
   (set-face 'bold-italic                              'nano-face-strong)
   (set-face 'region                                   'nano-face-subtle)
   (set-face 'highlight                                'nano-face-subtle)
@@ -644,7 +644,7 @@ function is a convenience wrapper used by `describe-package-1'."
     (set-face 'markdown-html-tag-delimiter-face      'nano-face-default)
     (set-face 'markdown-html-tag-name-face           'nano-face-default)
     (set-face 'markdown-inline-code-face              'nano-face-popout)
-    (set-face 'markdown-italic-face                    'nano-face-faded)
+    (set-face 'markdown-italic-face                   'nano-face-popout)
     (set-face 'markdown-language-info-face           'nano-face-default)
     (set-face 'markdown-language-keyword-face        'nano-face-default)
     (set-face 'markdown-line-break-face              'nano-face-default)

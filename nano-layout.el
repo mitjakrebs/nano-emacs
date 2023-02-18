@@ -24,7 +24,6 @@
 	       '(min-width  . 1)
 	       '(fullscreen . maximized)
                '(vertical-scroll-bars . nil)
-               '(internal-border-width . 24)
                '(left-fringe    . 1)
                '(right-fringe   . 1)
                '(tool-bar-lines . 0)

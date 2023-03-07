@@ -24,7 +24,7 @@
   (setq nano-color-background "#ffffff") ;; White
   (setq nano-color-highlight  "#eceff1") ;; Blue Gray 50
   (setq nano-color-critical   "#f44336") ;; Red 500
-  (setq nano-color-salient    "#0277bd") ;; Light Blue 800
+  (setq nano-color-salient    "#1565c0") ;; Blue 800
   (setq nano-color-strong     "#263238") ;; Blue Gray 900
   (setq nano-color-popout     "#fb8c00") ;; Orange 600
   (setq nano-color-subtle     "#eceff1") ;; Blue Gray 50

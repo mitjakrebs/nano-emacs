@@ -43,12 +43,16 @@ Defaults to nil."
 ;; When we set a face, we take care of removing any previous settings
 (defun set-face (face style)
   "Reset FACE and make it inherit STYLE."
-  (set-face-attribute face nil
-                      :foreground 'unspecified :background 'unspecified
-                      :family     'unspecified :slant      'unspecified
-                      :weight     'unspecified :height     'unspecified
-                      :underline  'unspecified :overline   'unspecified
-                      :box        'unspecified :inherit    style))
+  (if (facep face)
+      (set-face-attribute face nil
+                          :foreground 'unspecified :background 'unspecified
+                          :family     'unspecified :slant      'unspecified
+                          :weight     'unspecified :height     'unspecified
+                          :underline  'unspecified :overline   'unspecified
+                          :box        'unspecified :inherit    style)
+    (message "NANO Warning: Face %s could not be set. It may not be defined."
+             face)))
+  
 
 
 (defun nano-theme--basics ()
@@ -507,7 +511,8 @@ function is a convenience wrapper used by `describe-package-1'."
     (set-face 'org-quote                               'nano-face-faded)
     (set-face 'org-scheduled                           'nano-face-faded)
     (set-face 'org-scheduled-previously                'nano-face-faded)
-    (set-face 'org-scheduled-today                     'nano-face-faded)
+    (set-face 'org-scheduled-today                   '(nano-face-salient
++                                                      nano-face-strong))
     (set-face 'org-sexp-date                           'nano-face-faded)
     (set-face 'org-special-keyword                     'nano-face-faded)
     (set-face 'org-table                               'nano-face-faded)
